@@ -1,0 +1,38 @@
+
+body{
+    background: url(pexels-ankush-rathi-925069.jpg);
+    background-repeat:no-repeat;
+    background-size:1500px 1000px;
+  }
+h1{
+   color:black;
+   text-align:center;
+}
+.left-links {
+    display: inline-block;
+    vertical-align: top; /* Align elements vertically */
+    margin-right:2px; /* Adjust margin between elements */
+}
+
+.left-links  a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link color */
+    padding:10px;
+}
+
+
+.center-links {
+    margin-right: auto; /* This will push the element to the left */
+    margin-left: auto; /* This will center the element */
+    padding: 20px; /* Add padding for better spacing */
+    text-align: center;
+    margin-top:20px;
+}
+.center-links a{
+    color:black;
+}
+
+.left-links {
+    padding: 20px; /* Add padding for better spacing */
+    display:flex;
+}

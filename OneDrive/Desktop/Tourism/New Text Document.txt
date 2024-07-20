@@ -1,0 +1,59 @@
+virat /home/tushar/virat 
+retirement .txt
+Rohit /home/tushar/Rohit
+
+
+create afolder aman and tushar
+
+create 3 files in aman folder
+cp first file from aman to tushar
+cp second file from amna to tushar
+but new name 
+abc.txt =>newabc.txt
+mv the third file to tushar folder
+copy the whole aman folder to tushar
+
+pwd
+ls
+mkdir
+rmdir
+cd
+touch
+cd..
+rm -rv folder
+cp and mv folder
+
+
+vi,vim,nano
+3 rd party editor
+vi editor=> certification
+
+you have to find the file current user made
+create afile of more than 100 mb and choose that file whose size is less than 90 mb
+find out the file created in last 5 minutes
+find out only the files which are created by the current user
+
+find /home/diyabari2004/folder1 -mmin +5
+/home/diyabari2004/folder1
+/home/diyabari2004/folder1/orange.txt
+diyabari2004@cloudshell:~/folder1$ find -size-100mb /home/diyabari2004/folder1
+find: unknown predicate `-size-100mb'
+diyabari2004@cloudshell:~/folder1$ find -size -100mb /home/diyabari2004/folder1 
+find: Invalid argument `-100mb' to -size
+diyabari2004@cloudshell:~/folder1$ find -size -100M /home/diyabari2004/folder1  
+find: paths must precede expression: `/home/diyabari2004/folder1'
+find: possible unquoted pattern after predicate `-size'?
+diyabari2004@cloudshell:~/folder1$ find -size+100M /home/diyabari2004/folder1   
+find: unknown predicate `-size+100M'
+diyabari2004@cloudshell:~/folder1$ fallocate -|100 diya2.txt
+-bash: 100: command not found
+fallocate: no length argument specified
+diyabari2004@cloudshell:~/folder1$ fallocate -100 diya2.txt                     
+fallocate: invalid option -- '1'
+Try 'fallocate --help' for more information.
+diyabari2004@cloudshell:~/folder1$ fallocate -l 100 diya2.txt                   
+diyabari2004@cloudshell:~/folder1$ ls
+diya2.txt  orange.txt
+diyabari2004@cloudshell:~/folder1$ mkdir backup
+diyabari2004@cloudshell:~/folder1$ mkdir backup
+diyabari2004@cloudshell:~/folder1$ find /home/diyabari2004/folder1 -type f -user diyabari2004 -exec cp -r {} /home/diyabari2004/folder1/backup/ \;

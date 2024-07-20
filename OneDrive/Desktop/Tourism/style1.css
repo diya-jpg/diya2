@@ -1,0 +1,85 @@
+/* Style for the links and images */
+.A img{
+    /* Setting the height of images to 150px */
+    height: 160px;
+    /* If you want to maintain the aspect ratio, add width as auto */
+    width: auto;
+    /* Adding some padding around the images */
+
+    padding:8px;
+    /* Adding a border around the images */
+    border: 2px solid #ccc;
+    /* Adding some margin around the images */
+    margin: 5px;
+    /* Making the images rounded */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.B img{
+    /* Setting the height of images to 150px */
+    height: 155px;
+    /* If you want to maintain the aspect ratio, add width as auto */
+    width: auto;
+    /* Adding some padding around the images */
+    padding: 8px;
+    /* Adding a border around the images */
+    border: 2px solid #ccc;
+    /* Adding some margin around the images */
+    margin: 5px;
+    /* Making the images rounded */
+    border-radius: 10px;
+    display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+   
+}
+.C img{
+    /* Setting the height of images to 150px */
+    height: 160px;
+    /* If you want to maintain the aspect ratio, add width as auto */
+    width: auto;
+    /* Adding some padding around the images */
+    padding: 8px;
+    /* Adding a border around the images */
+    border: 2px solid #ccc;
+    /* Adding some margin around the images */
+    margin: 5px;
+    /* Making the images rounded */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.D img{
+    /* Setting the height of images to 150px */
+    height: 155px;
+    /* If you want to maintain the aspect ratio, add width as auto */
+    width:auto;
+    /* Adding some padding around the images */
+    padding: 8px;
+    /* Adding a border around the images */
+    border: 2px solid #ccc;
+    /* Adding some margin around the images */
+    margin: 5px;
+    /* Making the images rounded */
+    border-radius: 10px;
+    display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+   
+}
+body {
+  background-color:pink;
+  background-repeat: no-repeat;
+  background-size: cover;
+padding:8rem;
+}
+
+#container {
+display: flex;
+justify-content:center;
+}
+

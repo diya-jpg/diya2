@@ -1,0 +1,34 @@
+virat /home/tushar/virat 
+retirement .txt
+Rohit /home/tushar/Rohit
+
+
+create afolder aman and tushar
+
+create 3 files in aman folder
+cp first file from aman to tushar
+cp second file from amna to tushar
+but new name 
+abc.txt =>newabc.txt
+mv the third file to tushar folder
+copy the whole aman folder to tushar
+
+pwd
+ls
+mkdir
+rmdir
+cd
+touch
+cd..
+rm -rv folder
+cp and mv folder
+
+
+vi,vim,nano
+3 rd party editor
+vi editor=> certification
+
+you have to find the file current user made
+create afile of more than 100 mb and choose that file whose size is less than 90 mb
+find out the file created in last 5 minutes
+find out only the files which are created by the current user
